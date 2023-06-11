@@ -2,6 +2,7 @@ import os
 import sys
 import inspect
 import pkg_resources
+import subprocess
 
 #make sure additional packages are installed
 required = {'opencv-python', 'ffmpeg'}
